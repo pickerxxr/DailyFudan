@@ -38,9 +38,9 @@ jobs:
         with:
           python-version: 3.8
 
-      - name: Random sleep
-        if: github.event_name == 'schedule'
-        run: sleep $(shuf -i 10-300 -n 1)
+#       - name: Random sleep
+#         if: github.event_name == 'schedule'
+#         run: sleep $(shuf -i 10-300 -n 1)
 
       - name: Run sign
         run: |
