@@ -60,7 +60,7 @@ def fudan_daily(username, passwd):
         "sfhbtl": 0,
         "sfjcgrq": 0,
         "sftgfxcs": 1,
-        "sfzx": 1,
+        "sfzx": 0,
         "code": checkin_code_vis
     })
 
